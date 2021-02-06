@@ -10,6 +10,7 @@
 
   <title>Frontend Mentor | Article preview component</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
 </head>
 
 <body>
@@ -27,8 +28,17 @@
           to help you make any room feel complete.
         </div>
       </div>
+      <div class="author-container shared-active">
+        <span class="share-text">
+          SHARE
+        </span>
+        <img src="./images/icon-facebook.svg" alt="icon facebook" class="share-icon">
+        <img src="./images/icon-twitter.svg" alt="icon facebook" class="share-icon">
+        <img src="./images/icon-pinterest.svg" alt="icon facebook" class="share-icon">
+        <button class="share-btn active"></button>
+      </div>
       <div class="author-container">
-        <img src="./images/avatar-michelle.jpg" alt="avatar">
+        <img class="author-avatar" src="./images/avatar-michelle.jpg" alt="avatar">
         <div class="author-info">
           <span class="author-name">
             Michelle Appleton
@@ -37,8 +47,7 @@
             28 Jun 2020
           </span>
         </div>
-        <button class="share-btn">
-        </button>
+        <button class="share-btn"></button>
       </div>
     </div>
   </div>

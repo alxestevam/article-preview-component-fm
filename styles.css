@@ -143,3 +143,46 @@ body {
 .share-icon {
     margin-left: 15px;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        width: 100%;
+        height: 280px;
+        max-width: 625px;
+    }
+
+    
+    .card > .card-header-img { 
+        width: 40%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .card-inner-wrapper {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .container {
+        max-width: none;
+    }
+
+    .card-content {
+        padding: 0;
+    }
+
+    .author-container {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .author-container.shared-active {
+        display: none;
+    }
+
+
+
+  
+}
